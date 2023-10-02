@@ -4,6 +4,6 @@ eleventyNavigation:
   key: About Me
   order: 3
 ---
-# About Me
+<h1 class="serif"> About Me </h1>
 
-I am a person that writes stuff.
+chill guy
