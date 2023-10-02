@@ -57,7 +57,10 @@
 			{{ content | safe }}
 		</main>
 
-		<footer></footer>
+		<footer>
+			<p>&copy; {{ metadata.title }} {{ year }}</p>
+			<p>This website does not collect your data. No language models were involved in writing the blog posts on here.</p>
+		</footer>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>
