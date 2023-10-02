@@ -1,0 +1,10 @@
+{
+  "name": "Parth Shiralkar | parth.ninja",
+  "short_name": "parth.ninja",
+  "description": "Front-end developer, UI engineer, time traveller",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "natural"
+}
