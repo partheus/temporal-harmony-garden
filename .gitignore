@@ -1,5 +1,6 @@
 ### Node template
 # Build folder
+/_site/
 _site/
 
 # Logs
@@ -132,4 +133,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
