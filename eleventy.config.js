@@ -96,6 +96,12 @@ module.exports = function(eleventyConfig) {
 			level: [1,2,3,4],
 			slugify: eleventyConfig.getFilter("slugify")
 		});
+		// Enable raw HTML and other options
+		mdLib.set({
+			html: true,
+			breaks: true,
+			linkify: true
+		});
 	});
 
 	// Features to make your build faster (when you need them)
