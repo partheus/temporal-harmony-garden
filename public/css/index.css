@@ -8,14 +8,14 @@
 :root {
     --color-gray-20: #e0e0e0;
     --color-gray-50: #C0C0C0;
-    --color-gray-90: #016A70;
+    --color-gray-90: #141E46;
 
-    --background-color: #FFFFDD;
+    --background-color: #FFF5E0;
 
     --text-color: var(--color-gray-90);
-    --text-color-link: #082840;
-    --text-color-link-active: #5f2b48;
-    --text-color-link-visited: #17050F;
+    --text-color-link: #d21687;
+    --text-color-link-active: #156c01;
+    --text-color-link-visited: #930e60;
 
     --syntax-tab-size: 2;
 }
@@ -53,7 +53,8 @@ html {
     overflow-y: scroll;
 }
 body {
-    max-width: 40em;
+    max-width: 60em;
+    padding: 0 1em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -148,7 +149,7 @@ header {
     gap: 1em .5em;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1em;
+    padding: 2em 0;
 }
 .home-link {
     font-size: 2em; /* 16px /16 */
@@ -157,6 +158,48 @@ header {
 }
 .home-link:link:not(:hover) {
     text-decoration: none;
+}
+
+/* Footer */
+footer {
+    border-top: 1px dashed var(--color-gray-20);
+    padding: 1em 0;
+    font-size: 0.8125em; /* 13px /16 */
+    color: var(--color-gray-90);
+    line-height: 1.5em;
+}
+
+/* Blockquote */
+blockquote {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border-left: 5px solid #f10dc1;
+    quotes: "\201C""\201D""\2018""\2019";
+    position: relative;
+}
+
+blockquote:before {
+    color: #f10dc1;
+    content: open-quote;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote p {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888;
+    font-size: 1em;
+    margin-top: 1em;
 }
 
 /* Nav */
