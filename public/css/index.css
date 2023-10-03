@@ -2,7 +2,7 @@
 :root {
     /*--font-family: -apple-system, system-ui, sans-serif;*/
     --font-family: 'IBM Plex Sans', sans-serif;
-    --font-family-serif: 'Besley', serif;
+    --font-family-serif: 'Young Serif', serif;
     --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -170,10 +170,11 @@ header {
 /* Footer */
 footer {
     border-top: 1px solid var(--color-gray-20);
-    padding: 1em 0;
+    padding: 1em 0 4.5em 0;
     font-size: 0.8125em; /* 13px /16 */
     color: var(--color-gray-90);
     line-height: 1.5em;
+    margin-top: 1em;
 }
 
 /* Blockquote */
