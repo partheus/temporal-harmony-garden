@@ -25,15 +25,15 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --color-gray-20: #e0e0e0;
-        --color-gray-50: #C0C0C0;
-        --color-gray-90: #dad8d8;
+        --color-gray-50: #B5CB99;
+        --color-gray-90: #ffccff;
 
         /* --text-color is assigned to --color-gray-_ above */
-        --text-color-link: #1493fb;
-        --text-color-link-active: #6969f7;
-        --text-color-link-visited: #a6a6f8;
+        --text-color-link: #F1B4BB;
+        --text-color-link-active: #f5ff64;
+        --text-color-link-visited: #FDF0F0;
 
-        --background-color: #15202b;
+        --background-color: #001524;
     }
 }
 
@@ -198,14 +198,12 @@ blockquote:before {
 blockquote p {
     margin: 0;
     padding: 0;
-    color: #333;
     font-size: 1.2em;
 }
 
 blockquote cite {
     display: block;
     text-align: right;
-    color: #888;
     font-size: 1em;
     margin-top: 1em;
 }
